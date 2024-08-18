@@ -1,0 +1,485 @@
+.hero{
+    width: 50%;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.HeroImg{
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    border: 3px rgb(0, 255, 0) solid;
+}
+.heroText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.HeroTitle{
+    font-size: 3.4rem;
+    width: 80%;
+    margin-inline: auto;
+    text-align: center;
+    font-weight: 500;
+}
+.HeroTitle h1{
+    font-size: 3.4rem;
+    width: 80%;
+    margin-inline: auto;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(91,160,255); 
+    background: linear-gradient(105deg, rgba(91,160,255,1) 17%, rgba(0,9,255,1) 38%, rgba(145,0,255,1) 62%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.HeroDesc{
+    font-size: 1.5rem;
+    width: 80%;
+    text-align: center;
+    margin-inline: auto;
+}
+.HeroBtns{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-inline: auto;
+    gap: 20%;
+    padding-top: 4%;
+}
+.Btn1{
+    background-color: #646cff;
+    color: black;
+    width: 100%;
+    border: 2px #242424 solid ;
+}
+a{
+    width: 100%;
+}
+.btn2{
+    width: 100%;
+    border: 2px solid #242424 ;
+}
+.Btn1:hover{
+    background-color: #1a1a1a;
+    color: white;
+    border: 2px rgba(145,0,255,1) solid;
+}
+.btn2:hover{
+    background-color: #646cff;
+    color: black;
+    border: 2px rgba(145,0,255,1)  solid;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.Exp{
+    width: 50%;
+    margin-inline: auto;
+    padding-top: 5%;
+}
+.expTtl{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 5%;
+}
+.expImgs{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 90%;
+    margin-inline: auto;
+}
+.expImg{
+    width: 8%;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+
+.Project-contain{
+    width: 60%;
+    padding-top: 7%;
+    margin-inline: auto;
+}
+.ProjectTtl{
+    color: rgb(91,160,255); 
+    background: linear-gradient(240deg, rgba(91,160,255,1) 15%, rgba(0,9,255,1) 30%, rgba(145,0,255,1) 55%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 3.4rem;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+}
+.Project-Info{
+    width: 45%;
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    border: #242424 solid 2px;
+    box-shadow: rgba(145,0,255,0.4) -5px 5px, rgba(145,0,255,0.3) -10px 10px, rgba(145,0,255,0.2) -15px 15px, rgba(145,0,255,0.2) -20px 20px, rgba(145,0,255,0.05) -25px 25px;
+}
+
+.projectImg{
+    display: block;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.projectTitle{
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 10px;
+}
+.projectDesc{
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.WorkTtl{
+    color: rgb(91,160,255); 
+    background: linear-gradient(140deg, rgba(91,160,255,1) 15%, rgba(0,9,255,1) 30%, rgba(145,0,255,1) 55%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding-top: 10%;
+    font-size: 3.4rem;
+    text-align: center;
+}
+.Work-Contain{
+    width: 60%;
+    margin-inline: auto;
+    text-align: center;
+}
+.WorkPlace{
+    width: 12%;
+    height: auto;
+}
+.workTitle{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+
+.WorkDate{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.workDesc{
+    width: 80%;
+    margin-inline: auto;
+    text-align: start;
+    padding-bottom: 5%;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+.contact {
+    display: flex;
+    background-color:#1a1a1a;
+    margin: auto;
+    width: 50%;
+    padding-top: 100%;
+    max-width: 100%; 
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+.input-container{
+    border: 1px solid #646cff;
+    display: flex;   
+    border-radius: 20px;
+    padding: 10px;
+    gap:10px
+
+}
+.input-container input{
+    background-color: #1a1a1a;
+    border: none;
+    outline: none;
+}
+.input-container p{
+    font-size: 15px;
+}
+.mailImg {
+    width: 40%;
+    height: auto;
+    max-width: 100%;
+}
+
+.get {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 20px;
+    width: 100%; 
+}
+
+.input, .message {
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    width: 100%; 
+    max-width: 300px; 
+    box-sizing: border-box; 
+}
+.SBtn{
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.SBtn::before{
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-SBtn 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+@keyframes glowing-SBtn {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+
+  .SBtn::after{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+.message {
+    border: 1px solid #646cff;
+    background-color: #1a1a1a;
+    height: 100px;
+    width:100% !important;
+    outline: none;
+}
+
+
+@media (max-width: 768px) {
+    .contact {
+        flex-direction: column; 
+        width: 80%; 
+        max-width: 100%; 
+    }
+
+    .mailImg {
+        width: 60%;  
+    }
+
+    .get {
+        width: 100%;
+    }
+
+    .input, .message {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact {
+        width: 95%; 
+    }
+}
+    
+/* Responsive design for screens smaller than 768px */
+@media (max-width: 768px) {
+    .hero {
+        width: 80%;
+        padding-top: 20px;
+    }
+
+    .HeroImg {
+        width: 50%;
+    }
+
+    .HeroTitle h1 {
+        font-size: 2.5rem;
+    }
+
+    .HeroDesc {
+        font-size: 1.2rem;
+        width: 90%;
+    }
+
+    .HeroBtns {
+        flex-direction: column;
+        gap: 10px;
+        width: 80%;
+        padding-top: 2%;
+    }
+
+    .Btn1, .btn2 {
+        width: 100%;
+    }
+
+    .Exp {
+        width: 80%;
+        padding-top: 5%;
+    }
+
+    .expImgs {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .expImg {
+        width: 15%;
+        margin-bottom: 10px;
+    }
+
+    .Project-contain {
+        width: 90%;
+    }
+
+    .projects {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Project-Info {
+        width: 100%;
+    }
+
+    .WorkTtl {
+        font-size: 2.8rem;
+    }
+
+    .Work-Contain {
+        width: 90%;
+    }
+
+    .WorkPlace {
+        width: 20%;
+    }
+
+    .workTitle {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .workDesc {
+        width: 90%;
+    }
+}
+
+/* Responsive design for screens smaller than 480px */
+@media (max-width: 480px) {
+    .hero {
+        width: 90%;
+    }
+
+    .HeroImg {
+        width: 60%;
+    }
+
+    .HeroTitle h1 {
+        font-size: 2rem;
+    }
+
+    .HeroDesc {
+        font-size: 1rem;
+    }
+
+    .HeroBtns {
+        gap: 5px;
+        padding-top: 5%;
+    }
+
+    .Exp {
+        width: 90%;
+    }
+
+    .expImg {
+        width: 20%;
+    }
+
+    .Project-contain {
+        width: 100%;
+    }
+
+    .ProjectTtl {
+        font-size: 2.8rem;
+    }
+
+    .WorkTtl {
+        font-size: 2.4rem;
+    }
+
+    .workDesc {
+        width: 100%;
+    }
+
+    .contact {
+        width: 95%;
+        padding-top: 50%;
+    }
+
+    .input, .message {
+        width: 100%;
+    }
+}
